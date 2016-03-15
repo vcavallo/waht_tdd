@@ -3,12 +3,13 @@ require_relative 'waht'
 describe Waht do
 
   describe "features" do
-    it "unwahts a string of wahts" do
-      expect(
-        Waht.unwaht(
-          '................................................................................................................waht'
-        )
-      ).to eq 'p'
+    describe "unwahts a string of wahts" do
+      context "with a single character" do
+        it "converts it into a single character" do
+          pee = '.' * 112
+          expect(Waht.unwaht(pee)).to eq 'p'
+        end
+      end
     end
   end
 
