@@ -1,6 +1,9 @@
 class Waht
   def self.unwaht(wahtty_string)
-    # i want this to split the wahtty_string into '....waht' chunks
+    # i'm ready to implement this now
+    # 1. split the wahhty string into dot chunks
+    # 2. for each dot chunk, convert it to ascii character
+    # 3. join these all up in to one big string
   end
 
   def self.divide_wahts(wahtty_string)
