@@ -6,7 +6,7 @@ class Waht
     # 3. join these all up in to one big string
     divide_wahts(wahtty_string).collect do |dot_chunk|
       dot_count_as_ascii(dot_chunk)
-    end
+    end.join
   end
 
   def self.divide_wahts(wahtty_string)
