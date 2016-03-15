@@ -10,4 +10,8 @@ class Waht
   def self.count_dots(dots)
     dots.size
   end
+
+  def self.dot_count_as_ascii(dots)
+    count_dots(dots).chr
+  end
 end
