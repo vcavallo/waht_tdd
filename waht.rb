@@ -6,4 +6,8 @@ class Waht
   def self.divide_wahts(wahtty_string)
     wahtty_string.split("waht")
   end
+
+  def self.count_dots(dots)
+    dots.size
+  end
 end
