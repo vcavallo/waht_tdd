@@ -14,7 +14,7 @@ describe Waht do
 
   describe "smaller pieces" do
     it "splits a wahtty string into separate pieces" do
-      expect(Waht.divide_wahts('....waht....waht....waht')).to eq 3
+      expect(Waht.divide_wahts('....waht....waht....waht').size).to eq 3
     end
   end
 
